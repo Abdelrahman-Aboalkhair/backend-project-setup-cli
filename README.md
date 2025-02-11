@@ -37,11 +37,17 @@ The basic setup will generate the following folder structure:
 
 /<project-name>
 ├── .env
+
 ├── app.js
+
 ├── server.js
+
 ├── db.config.js
+
 ├── /models
+
 ├── /controllers
+
 └── /routes
 
 # Advanced Setup
@@ -50,18 +56,31 @@ The advanced setup will generate the following folder structure with additional 
 
 /<project-name>
 ├── .env
+
 ├── app.js
+
 ├── server.js
+
 ├── db.config.js
+
 ├── /models
+
 └── user.model.js
+
 ├── /controllers
+
 └── user.controller.js
+
 ├── /routes
+
 └── user.routes.js
+
 ├── /middlewares
+
 └── auth.middleware.js
+
 └── /config
+
 └── jwt.config.js
 
 ## Dependencies Installed
