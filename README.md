@@ -69,20 +69,31 @@ The advanced setup will generate the following folder structure with additional 
 The following dependencies are automatically installed:
 
 express
+
 mongoose
+
 jsonwebtoken
+
 bcryptjs
+
 multer
+
 cloudinary
+
 dotenv
+
 express-rate-limit
+
 helmet
+
 hpp
+
 xss-clean
+
 express-mongo-sanitize
 
-nodemon: A tool that automatically restarts the application when file changes are detected.
+nodemon
 
-express-validator: A set of middlewares for validating and sanitizing user input.
+express-validator
 
-cookie-parser: Parse cookies in request headers.
+cookie-parser
