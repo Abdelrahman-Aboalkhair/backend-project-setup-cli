@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "backend-project-setup-cli",
+  "version": "3.0.0",
+  "description": "A CLI for setting up backend projects",
+  "main": "index.js",
+  "bin": {
+    "backend-project-setup-cli": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^10.0.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.4.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Abdelrahman",
+  "license": "ISC"
+}
