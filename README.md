@@ -68,29 +68,18 @@ The advanced setup will generate the following folder structure with additional 
 
 The following dependencies are automatically installed:
 
-express: A fast and minimalist web framework for Node.js.
-
-mongoose: An ODM (Object Data Modeling) library for MongoDB and Node.js.
-
-jsonwebtoken: For creating and verifying JSON Web Tokens (JWT).
-
-bcryptjs: For hashing passwords.
-
-multer: A middleware for handling multipart/form-data, used for file uploads.
-
-cloudinary: For storing files in the cloud.
-
-dotenv: Loads environment variables from a .env file.
-
-express-rate-limit: Middleware to limit repeated requests to public APIs.
-
-helmet: Helps secure your Express apps by setting various HTTP headers.
-
-hpp: Protects against HTTP Parameter Pollution attacks.
-
-xss-clean: A middleware to sanitize user input and protect against XSS attacks.
-
-express-mongo-sanitize: Protects against MongoDB Operator Injection.
+express
+mongoose
+jsonwebtoken
+bcryptjs
+multer
+cloudinary
+dotenv
+express-rate-limit
+helmet
+hpp
+xss-clean
+express-mongo-sanitize
 
 nodemon: A tool that automatically restarts the application when file changes are detected.
 
